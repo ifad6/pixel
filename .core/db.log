@@ -1,0 +1,1017 @@
+﻿30.07.16 0:39:34
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 15
+		AND `x2` >= -15
+		AND `y1` <= 5
+		AND `y2` >= -5
+0: 
+
+30.07.16 0:39:34
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN (1,2)
+0: 
+
+01.08.16 19:32:36
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+01.08.16 19:32:36
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+01.08.16 23:34:42
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+02.08.16 0:28:03
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:26:23
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:26:26
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:26:29
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:26:32
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:26:35
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:26:38
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:26:41
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:26:44
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:26:47
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:26:50
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:26:53
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:26:56
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:26:59
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:02
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:05
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:08
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:11
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:14
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:17
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:21
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:23
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:26
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:29
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:32
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:35
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:38
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:41
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:44
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:47
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:50
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:53
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:56
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:27:59
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:03
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:05
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:08
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:11
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:14
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:17
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:20
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:23
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:26
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:29
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:32
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:35
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:38
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:41
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:44
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:47
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:50
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:53
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:56
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:28:59
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:02
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:05
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:08
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:11
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:14
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:17
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:20
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:23
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:26
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:29
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:32
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:35
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:38
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:41
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:44
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:47
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:50
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:53
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:56
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:29:59
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:02
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:05
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:08
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:11
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:14
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:17
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:20
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:23
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:26
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:29
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:32
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:35
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:38
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:41
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:44
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:47
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:50
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:53
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:56
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:30:59
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:02
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:05
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:10
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:12
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:14
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:17
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:20
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:23
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:26
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:29
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:32
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:35
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:38
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:41
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:44
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:47
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:50
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:53
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:56
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 14:31:59
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:35
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:35
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:36
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:36
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:37
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:37
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:37
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:38
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:39
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:39
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:41
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:44
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:45
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:47
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:48
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:49
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:50
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:52
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:52
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+03.08.16 17:55:55
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+26.09.16 11:52:31
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 18
+		AND `x2` >= -18
+		AND `y1` <= 11
+		AND `y2` >= -11
+1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+
+26.09.16 11:52:31
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+
+26.09.16 11:52:33
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 18
+		AND `x2` >= -18
+		AND `y1` <= 11
+		AND `y2` >= -11
+1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+
+26.09.16 11:52:33
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+
+26.09.16 11:52:35
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 18
+		AND `x2` >= -18
+		AND `y1` <= 11
+		AND `y2` >= -11
+1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+
+26.09.16 11:52:35
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+
+26.09.16 11:52:37
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 18
+		AND `x2` >= -18
+		AND `y1` <= 11
+		AND `y2` >= -11
+1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+
+26.09.16 11:52:37
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+
+28.09.16 15:01:09
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 18
+		AND `x2` >= -18
+		AND `y1` <= 11
+		AND `y2` >= -11
+1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+
+28.09.16 15:01:09
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+
+28.09.16 15:01:11
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 18
+		AND `x2` >= -18
+		AND `y1` <= 11
+		AND `y2` >= -11
+1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+
+28.09.16 15:01:11
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+
+28.09.16 15:01:13
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 18
+		AND `x2` >= -18
+		AND `y1` <= 11
+		AND `y2` >= -11
+1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+
+28.09.16 15:01:13
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+
+12.10.16 17:54:06
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 18
+		AND `x2` >= -18
+		AND `y1` <= 11
+		AND `y2` >= -11
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:06
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:08
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 18
+		AND `x2` >= -18
+		AND `y1` <= 11
+		AND `y2` >= -11
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:08
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:10
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 18
+		AND `x2` >= -18
+		AND `y1` <= 11
+		AND `y2` >= -11
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:10
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:12
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 18
+		AND `x2` >= -18
+		AND `y1` <= 11
+		AND `y2` >= -11
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:12
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:14
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 18
+		AND `x2` >= -18
+		AND `y1` <= 11
+		AND `y2` >= -11
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:14
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
