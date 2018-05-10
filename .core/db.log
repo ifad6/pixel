@@ -835,181 +835,1003 @@
 	WHERE `id` IN ()
 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
 
-26.09.16 11:52:31
-
-	SELECT * FROM `items`
-	WHERE `x1` <= 18
-		AND `x2` >= -18
-		AND `y1` <= 11
-		AND `y2` >= -11
-1045: Access denied for user 'iwon'@'localhost' (using password: NO)
-
-26.09.16 11:52:31
+19.08.16 22:23:11
 
 	SELECT * FROM `items_collection`
 	WHERE `id` IN ()
-1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
 
-26.09.16 11:52:33
-
-	SELECT * FROM `items`
-	WHERE `x1` <= 18
-		AND `x2` >= -18
-		AND `y1` <= 11
-		AND `y2` >= -11
-1045: Access denied for user 'iwon'@'localhost' (using password: NO)
-
-26.09.16 11:52:33
+19.08.16 22:23:13
 
 	SELECT * FROM `items_collection`
 	WHERE `id` IN ()
-1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
 
-26.09.16 11:52:35
-
-	SELECT * FROM `items`
-	WHERE `x1` <= 18
-		AND `x2` >= -18
-		AND `y1` <= 11
-		AND `y2` >= -11
-1045: Access denied for user 'iwon'@'localhost' (using password: NO)
-
-26.09.16 11:52:35
+19.08.16 22:23:15
 
 	SELECT * FROM `items_collection`
 	WHERE `id` IN ()
-1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
 
-26.09.16 11:52:37
-
-	SELECT * FROM `items`
-	WHERE `x1` <= 18
-		AND `x2` >= -18
-		AND `y1` <= 11
-		AND `y2` >= -11
-1045: Access denied for user 'iwon'@'localhost' (using password: NO)
-
-26.09.16 11:52:37
+19.08.16 22:23:18
 
 	SELECT * FROM `items_collection`
 	WHERE `id` IN ()
-1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
 
-28.09.16 15:01:09
-
-	SELECT * FROM `items`
-	WHERE `x1` <= 18
-		AND `x2` >= -18
-		AND `y1` <= 11
-		AND `y2` >= -11
-1045: Access denied for user 'iwon'@'localhost' (using password: NO)
-
-28.09.16 15:01:09
+19.08.16 22:23:19
 
 	SELECT * FROM `items_collection`
 	WHERE `id` IN ()
-1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
 
-28.09.16 15:01:11
-
-	SELECT * FROM `items`
-	WHERE `x1` <= 18
-		AND `x2` >= -18
-		AND `y1` <= 11
-		AND `y2` >= -11
-1045: Access denied for user 'iwon'@'localhost' (using password: NO)
-
-28.09.16 15:01:11
+19.08.16 22:23:21
 
 	SELECT * FROM `items_collection`
 	WHERE `id` IN ()
-1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
 
-28.09.16 15:01:13
-
-	SELECT * FROM `items`
-	WHERE `x1` <= 18
-		AND `x2` >= -18
-		AND `y1` <= 11
-		AND `y2` >= -11
-1045: Access denied for user 'iwon'@'localhost' (using password: NO)
-
-28.09.16 15:01:13
+19.08.16 22:23:23
 
 	SELECT * FROM `items_collection`
 	WHERE `id` IN ()
-1045: Access denied for user 'iwon'@'localhost' (using password: NO)
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
 
-12.10.16 17:54:06
+19.08.16 22:23:25
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:27
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:29
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:31
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:33
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:35
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:37
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:39
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:41
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:43
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:45
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:47
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:49
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:51
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:53
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:55
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:57
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:23:59
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:01
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:03
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:05
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:07
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:09
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:12
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:13
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:16
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:18
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:19
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:21
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:24
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:25
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:27
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:29
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:31
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:33
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:35
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:37
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:41
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:42
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:44
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:46
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:49
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:50
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:52
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:54
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:57
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:24:59
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:29:56
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:29:57
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:29:59
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:30:02
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:30:04
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:30:05
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:30:09
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:30:10
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:30:11
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:30:15
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:30:16
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:30:18
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:30:20
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+19.08.16 22:30:21
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+23.08.16 17:03:55
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+30.08.16 11:41:20
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+30.08.16 11:41:22
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+30.08.16 11:41:24
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+12.10.16 17:54:16
 
 	SELECT * FROM `items`
-	WHERE `x1` <= 18
-		AND `x2` >= -18
-		AND `y1` <= 11
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 5
+		AND `y2` >= -5
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:16
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:18
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 5
+		AND `y2` >= -5
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:18
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:20
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 5
+		AND `y2` >= -5
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:20
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:22
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 5
+		AND `y2` >= -5
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:22
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:24
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 5
+		AND `y2` >= -5
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:24
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:26
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 5
+		AND `y2` >= -5
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:26
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:28
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 5
+		AND `y2` >= -5
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:28
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:30
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 8
+		AND `x2` >= -6
+		AND `y1` <= 5
+		AND `y2` >= -5
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:30
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:32
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 8
+		AND `x2` >= -6
+		AND `y1` <= 5
+		AND `y2` >= -5
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:32
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:34
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 8
+		AND `x2` >= -6
+		AND `y1` <= 5
+		AND `y2` >= -5
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:34
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:36
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 8
+		AND `x2` >= -6
+		AND `y1` <= 4
+		AND `y2` >= -6
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:36
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:38
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 8
+		AND `x2` >= -6
+		AND `y1` <= 4
+		AND `y2` >= -6
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:38
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:40
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 8
+		AND `x2` >= -6
+		AND `y1` <= 3
+		AND `y2` >= -7
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:40
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:42
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 2
+		AND `y2` >= -8
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:42
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:44
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 1
+		AND `y2` >= -9
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:44
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:46
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 0
+		AND `y2` >= -10
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:46
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:48
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 0
+		AND `y2` >= -10
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:48
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:50
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 0
+		AND `y2` >= -10
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:50
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:52
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 0
+		AND `y2` >= -10
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:52
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:54
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 0
+		AND `y2` >= -10
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:54
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:56
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 0
+		AND `y2` >= -10
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:56
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:58
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 0
+		AND `y2` >= -10
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:54:58
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:00
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 0
+		AND `y2` >= -10
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:00
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:02
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 0
+		AND `y2` >= -10
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:02
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:04
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 0
+		AND `y2` >= -10
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:04
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:06
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 0
+		AND `y2` >= -10
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:06
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:08
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 0
+		AND `y2` >= -10
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:08
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:10
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 0
+		AND `y2` >= -10
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:10
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:12
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= 0
+		AND `y2` >= -10
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:12
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:14
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 6
+		AND `x2` >= -8
+		AND `y1` <= 0
+		AND `y2` >= -10
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:14
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:16
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 6
+		AND `x2` >= -8
+		AND `y1` <= -1
 		AND `y2` >= -11
 1045: Access denied for user 'root'@'localhost' (using password: NO)
 
-12.10.16 17:54:06
+12.10.16 17:55:16
 
 	SELECT * FROM `items_collection`
 	WHERE `id` IN ()
 1045: Access denied for user 'root'@'localhost' (using password: NO)
 
-12.10.16 17:54:08
+12.10.16 17:55:18
 
 	SELECT * FROM `items`
-	WHERE `x1` <= 18
-		AND `x2` >= -18
-		AND `y1` <= 11
+	WHERE `x1` <= 6
+		AND `x2` >= -8
+		AND `y1` <= -1
 		AND `y2` >= -11
 1045: Access denied for user 'root'@'localhost' (using password: NO)
 
-12.10.16 17:54:08
+12.10.16 17:55:18
 
 	SELECT * FROM `items_collection`
 	WHERE `id` IN ()
 1045: Access denied for user 'root'@'localhost' (using password: NO)
 
-12.10.16 17:54:10
+12.10.16 17:55:20
 
 	SELECT * FROM `items`
-	WHERE `x1` <= 18
-		AND `x2` >= -18
-		AND `y1` <= 11
+	WHERE `x1` <= 6
+		AND `x2` >= -8
+		AND `y1` <= -1
 		AND `y2` >= -11
 1045: Access denied for user 'root'@'localhost' (using password: NO)
 
-12.10.16 17:54:10
+12.10.16 17:55:20
 
 	SELECT * FROM `items_collection`
 	WHERE `id` IN ()
 1045: Access denied for user 'root'@'localhost' (using password: NO)
 
-12.10.16 17:54:12
+12.10.16 17:55:22
 
 	SELECT * FROM `items`
-	WHERE `x1` <= 18
-		AND `x2` >= -18
-		AND `y1` <= 11
+	WHERE `x1` <= 7
+		AND `x2` >= -7
+		AND `y1` <= -1
 		AND `y2` >= -11
 1045: Access denied for user 'root'@'localhost' (using password: NO)
 
-12.10.16 17:54:12
+12.10.16 17:55:22
 
 	SELECT * FROM `items_collection`
 	WHERE `id` IN ()
 1045: Access denied for user 'root'@'localhost' (using password: NO)
 
-12.10.16 17:54:14
+12.10.16 17:55:24
 
 	SELECT * FROM `items`
-	WHERE `x1` <= 18
-		AND `x2` >= -18
-		AND `y1` <= 11
+	WHERE `x1` <= 8
+		AND `x2` >= -6
+		AND `y1` <= -1
 		AND `y2` >= -11
 1045: Access denied for user 'root'@'localhost' (using password: NO)
 
-12.10.16 17:54:14
+12.10.16 17:55:24
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:26
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 9
+		AND `x2` >= -5
+		AND `y1` <= 0
+		AND `y2` >= -10
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:26
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:28
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 9
+		AND `x2` >= -5
+		AND `y1` <= 1
+		AND `y2` >= -9
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:28
+
+	SELECT * FROM `items_collection`
+	WHERE `id` IN ()
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:30
+
+	SELECT * FROM `items`
+	WHERE `x1` <= 10
+		AND `x2` >= -4
+		AND `y1` <= 1
+		AND `y2` >= -9
+1045: Access denied for user 'root'@'localhost' (using password: NO)
+
+12.10.16 17:55:30
 
 	SELECT * FROM `items_collection`
 	WHERE `id` IN ()

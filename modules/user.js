@@ -1,165 +1,121 @@
-﻿define('user', [], function () {
+﻿define('user', ['konva'], function (K) {
 
 	var user = {
-		startPosition: {
+		createPosition: {
 			x: 0,
 			y: 0
 		},
-		goalPosition: { px: { x: false, y: false} },
-		goalCameraPosition: { px: { x: false, y: false} }
+		startPosition: { x: { px: false, cell: false}, y: { px: false, cell: false} },
+		goalPosition: { x: { px: false, cell: false}, y: { px: false, cell: false} },
+		startCameraPosition: { px: { x: false, y: false} }
 	}
 
 
 	//  Установка на стартовую позицию
-	user.toStartPosition = function(){
+	user.createUser = function(map){
 
-		user.startCell = $('.x' + user.startPosition.x  + '.y' + user.startPosition.y);
+		var xy = map.takeXYpx(user.createPosition.x, user.createPosition.y);
 
 		user.currentPosition = {
-			cell: {
-				x: user.startPosition.x,
-				y: user.startPosition.y
+			x: {
+				px:   xy.x + map.cellSize / 2,
+				cell: user.createPosition.x
 			},
-			px: {
-				x: user.startCell.position().left + 11,
-				y: user.startCell.position().top + 11
+			y: {
+				px:   xy.y + map.cellSize / 2,
+				cell: user.createPosition.y
 			}
 		}
 
-		$('#player').css('left', user.currentPosition.px.x).css('top', user.currentPosition.px.y);		
+		user.circle = new K.Circle({
+			x: user.currentPosition.x.px,
+			y: user.currentPosition.y.px,
+			radius: map.cellSize / 4,
+			fill: '#CCF',
+			opacity: 0.7
+		});
+		user.layer.add(user.circle).batchDraw();	
+
+	}
+
+	user.refreshUser = function(map){
+
+		var animation = false;
+		if (user.anim.isRunning())
+		{
+			user.anim.stop();
+			animation = true;
+		}
+
+		var xy = map.takeXYpx(user.currentPosition.x.cell, user.currentPosition.y.cell);
+
+		user.currentPosition.x.px = xy.x + map.cellSize / 2;
+		user.currentPosition.y.px = xy.y + map.cellSize / 2;
+
+		user.circle.setX(user.currentPosition.x.px).setY(user.currentPosition.y.px).radius(map.cellSize / 4);	
+
+		if (animation)
+		{
+			var xy = map.takeXYpx(user.goalPosition.x.cell, user.goalPosition.y.cell);
+		 	user.moving(xy.x + map.cellSize / 2, xy.y + map.cellSize / 2, map);
+		}
 
 	}
 
 
+	user.anim = new K.Animation();
+
 	// Перемещение по клику
-	user.moving =  function(x, y){
+	user.moving =  function(x, y, map){
 
-		var move = {},
-			way = {
-				x: x - user.currentPosition.cell.x,
-				y: y - user.currentPosition.cell.y
+		if (user.anim.isRunning()) user.anim.stop();
+
+		user.goalPosition.x.px = x;
+		user.goalPosition.y.px = y;
+		var xy = map.takeXYcell(user.goalPosition.x.px, user.goalPosition.y.px);
+		user.goalPosition.x.cell = xy.x;
+		user.goalPosition.y.cell = xy.y;
+
+//console.log(x, y, user.goalPosition.x.cell, user.goalPosition.y.cell);
+
+		user.startPosition.x.px = user.currentPosition.x.px;
+		user.startPosition.y.px = user.currentPosition.y.px;
+
+		var way = {
+				x: user.goalPosition.x.px - user.startPosition.x.px,
+				y: user.goalPosition.y.px - user.startPosition.y.px,
 			},
-			diff;
+			distance = Math.sqrt(way.x * way.x + way.y * way.y),
+			speed = map.cellSize / 2,
+			time = distance / speed * 1000;
 
-		function startMove(move){
 
-			user.currentPosition.cell = {
-				x: user.currentPosition.cell.x + move.x / 50,
-				y: user.currentPosition.cell.y + move.y / 50,
-			}
-
-			user.goalPosition.px = {
-				x: (user.goalPosition.px.x || $('#player').position().left) + move.x,
-				y: (user.goalPosition.px.y || $('#player').position().top) + move.y
-			}
-
-			user.goalCameraPosition = {
-				x: (user.goalCameraPosition.x || $('#base').offset().left) - move.x,
-				y: (user.goalCameraPosition.y || $('#base').offset().top)  - move.y
-			}
-
-			$('#player').animate({
-					left: user.goalPosition.px.x + 'px',
-					top:  user.goalPosition.px.y + 'px'
-				},
-				{
-					duration: 2000 * Math.abs(move.x || move.y) / 50,
-					easing: 'linear',
-					queue: true
-				});	
-
-			$('#base').animate({
-					left: user.goalCameraPosition.x + 'px',
-					top:  user.goalCameraPosition.y + 'px'
-				},
-				{
-					duration: 2000 * Math.abs(move.x || move.y) / 50,
-					easing: 'linear',
-					queue: true
-				});
-
+		user.startCameraPosition = {
+			x: map.group.x(),
+			y: map.group.y()
 		}
 
+		map.group.children.each(function(shape){
+			//shape.strokeHitEnabled(false);
+			//shape.shadowForStrokeEnabled(false);
+		});
 
-		if (way.x != 0 && way.y != 0)
-		{
+		user.anim = new K.Animation(function(frame){
 
-			if (Math.abs(way.x) > Math.abs(way.y))
-			{
-				diff = Math.abs(way.x) - Math.abs(way.y);
-				if (way.x > 0)
-				{
+			map.group.x(user.startCameraPosition.x - frame.time * way.x / time);
+			map.group.y(user.startCameraPosition.y - frame.time * way.y / time);
 
-					move.x = (way.x - diff) * 50; //map.cellSize;
-					move.y = way.y * 50;
-					startMove(move);
+			var xy = map.takeXYcell(user.currentPosition.x.px, user.currentPosition.y.px);
+			user.currentPosition.x.cell = xy.x;
+			user.currentPosition.y.cell = xy.y;
 
-					move.x = diff * 50; //map.cellSize;
-					move.y = 0;
-					startMove(move)
+			map.msg.setText(user.currentPosition.x.cell + ' ' + user.currentPosition.y.cell);
 
-				}
-				else
-				{
+			if (frame.time >= time) user.anim.stop();
 
-					move.x = (way.x + diff) * 50; //map.cellSize;
-					move.y = way.y * 50;
-					startMove(move);
+		}, map.layer);
+		user.anim.start();
 
-					move.x = -diff * 50; //map.cellSize;
-					move.y = 0;
-					startMove(move)
-
-				}
-			}
-			else
-			{
-				diff = Math.abs(way.y) - Math.abs(way.x);
-				if (way.y > 0)
-				{
-
-					move.y = (way.y - diff) * 50; //map.cellSize;
-					move.x = way.x * 50;
-					startMove(move);
-
-					move.y = diff * 50; //map.cellSize;
-					move.x = 0;
-					startMove(move)
-
-				}
-				else
-				{
-
-					move.y = (way.y + diff) * 50; //map.cellSize;
-					move.x = way.x * 50;
-					startMove(move);
-
-					move.y = -diff * 50; //map.cellSize;
-					move.x = 0;
-					startMove(move)
-
-				}
-			}
-
-		}
-		else if (way.x != 0)
-		{
-
-			move.x = way.x * 50;
-			move.y = 0;
-
-			startMove(move);
-
-		}
-		else if (way.y != 0)
-		{
-
-			move.x = 0;
-			move.y = way.y * 50;
-
-			startMove(move);
-
-		}
 	}
 
 	return user;
