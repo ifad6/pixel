@@ -1,4 +1,102 @@
-﻿define('map', ['jquery', 'map__wa', 'map__sz', 'konva'], function ($, wa, sz, K) {
+﻿function WorkArea()
+{
+	var self = this;
+
+	this.recalc = function()
+	{
+		self.width =  Math.floor(document.body.clientWidth / 4);
+		self.height = Math.floor(document.body.clientHeight / 4);
+
+		self.x1 = Math.floor((document.body.clientWidth  - self.width) / 2);
+		self.y1 = Math.floor((document.body.clientHeight - self.height) / 2);
+		self.x2 = self.x1 + self.width;
+		self.y2 = self.y1 + self.height;
+	}
+}
+
+
+function SZ()
+{
+	var self = this;
+
+	this.size = 1.5;
+
+	this.recalc = function(cellSize, wa){
+
+		self.width =  wa.width  + self.size * 2 * cellSize;
+		self.height = wa.height + self.size * 2 * cellSize;
+
+		self.x1 = Math.floor((document.body.clientWidth - self.width)  / 2);
+		self.y1 = Math.floor((document.body.clientHeight - self.height) / 2);
+		self.x2 = self.x1 + self.width;
+		self.y2 = self.y1 + self.height;
+
+	}
+}
+
+
+function Map ()
+{
+	var self = this;
+
+	this.width = {};
+	this.height = {};
+	this.x1 = {};
+	this.x2 = {};
+	this.y1 = {};
+	this.y2 = {};
+
+
+	var wa = new WorkArea();
+	var sz = new SZ();
+
+	this.recalc = function()
+	{
+		wa.recalc();
+
+		/*** Размер ячейки ***/
+		self.cellSize = Math.floor(Math.sqrt( wa.width * wa.height / 90 ) / 10) * 10;
+		if (self.cellSize < 50) self.cellSize = 50;
+		if (self.cellSize > 150) self.cellSize = 150;
+
+		sz.recalc(self.cellSize, wa);
+
+		/*** Размеры карты ***/
+		self.width.cell  = Math.ceil( sz.width  / self.cellSize ) + 2;
+		self.height.cell = Math.ceil( sz.height / self.cellSize ) + 2;
+		if (self.width.cell  % 2 < 1) self.width.cell++;
+		if (self.height.cell % 2 < 1) self.height.cell++;
+
+		self.width.px  = self.width.cell  * self.cellSize;
+		self.height.px = self.height.cell * self.cellSize;
+
+		/*if (wa.rect) wa.rect.setX(wa.x1).setY(wa.y1).width(wa.width).height(wa.height);
+		if (sz.rect) sz.rect.setX(sz.x1).setY(sz.y1).width(sz.width).height(sz.height);*/
+
+		/*** Координаты карты ***/
+
+		self.x1.px = Math.floor((document.body.clientWidth  - self.width.px) / 2);
+		self.y1.px = Math.floor((document.body.clientHeight - self.height.px) / 2);
+		self.x2.px = self.x1.px + self.width.px;
+		self.y2.px = self.y1.px + self.height.px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+define('map', ['jquery', 'map__wa', 'map__sz', 'konva'], function ($, wa, sz, K) {
 
 var map = { width: {}, height: {}, x1: {}, x2: {}, y1: {}, y2: {} }
 
@@ -51,13 +149,11 @@ map.drawMap = function(x, y)
 
 map.refreshMap = function(x, y)
 {
-
 	map.recalc();
 	map.group.setX(0).setY(0);
 	map.group.find('.cell').remove();
 	map.group.find('Text').remove();
 	map.drawMap(x, y);
-
 }
 
 

@@ -1,8 +1,8 @@
 ﻿requirejs.config({
 	baseUrl: 'modules',
 	paths: {
-		jquery	: 'http://lib.olbe.ru/js/jquery',
-		konva: 'http://lib.olbe.ru/js/konva'
+		jquery	: '//lib.olbe.ru/js/jquery',
+		konva: '//lib.olbe.ru/js/konva'
 	},
 	urlArgs: "cache=" + (new Date()).getTime()
 });
@@ -22,7 +22,6 @@ require(['jquery', 'konva', 'map', 'user', 'items'], function($, K, map, user, i
 
 	map.msg = new K.Text({ x: 0, y: 0, text: '', fontSize: 30, fontFamily: 'Calibri', fill: '#000' });
 	map.layer.add(map.msg);
-
 
 	map.createMap(user.createPosition.x, user.createPosition.y);
 	user.createUser(map);
