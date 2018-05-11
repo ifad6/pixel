@@ -98,7 +98,7 @@ function Map (startX, startY)
 		self.y2.px++;
 		self.draw();
 		//console.log('Время выполнения = ', new Date().getTime() - time);
-	}, 10);
+	}, 1000 / 24);
 
 
 
