@@ -1,4 +1,4 @@
-﻿var map = new Map(0, 0);
+var map = new Map(0, 0);
 
 /*user.layer = new K.Layer();
 stage.add(user.layer);*/
